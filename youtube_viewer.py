@@ -9,7 +9,6 @@ import time
 Path = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(Path)
 action = ActionChains(driver)
-action = ActionChains(driver)
 
 def youtube_viewer(link, wait_time, amount_of_views):
     for i in range(amount_of_views):
